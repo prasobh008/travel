@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://gtwallpaper.org/sites/default/files/wallpaper/170542/travel-wallpapers-170542-239486-9432906.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* text */
+#f1{
+    font-size: 4rem;
+    font-weight: 800;
+    /* margin-left: 70%; */
+    color: white;
+}
+#f2{
+    font-size: 3rem;
+    font-weight: 800;
+    /* margin-left: 70%; */
+    color: white;
+    font-family: "Playwrite NL", cursive;
+
+}
+#f3{
+    font-size: 4rem;
+    font-weight: 800;
+    /* margin-left: 70%; */
+    color: white;
+}
+#f4{
+    font-size: 3rem;
+    font-weight: 800;
+    /* margin-left: 70%; */
+    color: white;
+    font-family: "Playwrite NL", cursive;
+
+}
+#button{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(56, 122, 56);
+    color: white;
+    margin-left: 50%;
+}
+#b2{
+    margin-left: 45%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(46, 15, 184);
+    color: white;
+}
+.carousel-item {
+    height: 500px; /* Set your desired height here */
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 100%; /* Ensure it fills the column */
+    height: 250px; /* Fixed height */
+    margin-bottom: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.gallery-item:hover .hover-overlay {
+    opacity: 1;
+}
+
+.hover-overlay h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.hover-overlay p {
+    margin: 5px 0 15px;
+    font-size: 1rem;
+}
+
+.hover-overlay a {
+    color: #fff;
+    background-color: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hover-overlay a:hover {
+    background-color: darkred;
+}
+#pp{
+    font-family: "Playwrite NL", cursive;
+    color: rgb(247, 120, 120);
+    text-align: center;
+    margin-left: 40%;
+    
+
+}
+#h3{
+    font-family: "Playwrite NL", cursive;
+    color: rgb(93, 12, 255);
+    text-align: center;
+
+}
+#foot{
+    background-color: rgb(42, 30, 112);
+}
+#icon{
+    font-size: 20px;
+    color: white;
+}
+#nmm{
+    color: #fff;
+    font-weight: 400;
+}
+#endd{
+    color: #faf7f7a3;
+}
